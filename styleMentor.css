@@ -1,0 +1,265 @@
+body {
+	background-color: #CFB4C9;
+    height: 1000px;
+}
+
+.columnLeft {
+	background-color: #D7C1D2;
+    color: #5F4549;
+	padding-left: 30px;
+    margin-top: 0px;
+    position: sticky;
+    padding-top: 0px;
+    /* max-height: 800px; */
+	width: 80%;
+	height: 968px;
+}
+
+.columnLeft h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.columnLeft h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 550;
+}
+
+.pageAlignment {
+	position: absolute;
+	display: inline-block;
+}
+
+.row {
+	/* width: 100%; */
+	/* height: 900px; */
+	display: flex;
+    flex-direction: row;
+}
+
+.block {
+	display: inline-block;
+	width: 45%;
+    height: 1000px;
+    /* height: 800px; */
+    /* max-height: 810px; */
+}
+
+.mentorBlock {
+	display: flex;
+	flex-direction: column;
+}
+
+.picture {
+	width: 50%;
+	height: 100%;
+	border-radius: 90%;
+	padding-right: 10px;
+}
+
+.mentorRow {
+	/* width: 100%; */
+	height: 13em;
+	margin: 20px;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+}
+
+.mentorInfo {
+	display: flex;
+	flex-direction: column;
+    color: #5F4549;
+}
+
+.dateSelection {
+	display: flex;
+	flex-direction: row;
+}
+
+.datesList {
+	height: 2em;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+.reserveButton {
+	height: 2em;
+}
+body {
+    margin: 0px;
+    font-family: "Georgia", serif;
+}
+
+.header {
+    background-color: #5F4549;
+    color: #D9D0DC;
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#logo {
+    width: 110px;
+    margin: 0px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.menu li {
+    margin-left: 20px;
+    font-size: 20px;
+    /* margin-top: 20px; */
+}
+.menu a {
+    display: block;
+    color: #D9D0DC;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+.menu a:hover {
+    color: #CFB4C9;
+    transform: scale(1.1);
+}
+#login {
+    background-color: #A7899C;
+    font-size: 20px;
+    border: none;
+    color:#D9D0DC;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+}
+#login:hover {
+    background-color: #CFB4C9;
+    color: #7C616C;
+    transform: scale(1.05);
+}
+.footer {
+    color: #5F4549;
+    background-color: #D9D0DC;
+    /* position: relative; */
+}
+.footer_item {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_item h4 {
+    font-weight: 600;
+}
+#copyright {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    color: #5F4549;
+    background-color: #D9D0DC;
+}
+.footer_item {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_item h4 {
+    font-weight: 600;
+}
+#copyright {
+    text-align: center;
+    padding: 10px;
+}
+.box {
+    background-color: #A7899C;
+    font-size: 20px;
+    border: none;
+    color:#D9D0DC;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-weight: 700;
+    border-radius: 20px;
+}
+#button {
+    background-color: #A7899C;
+    font-size: 20px;
+    margin-top: 5px;
+    border: none;
+    color:#D9D0DC;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    font-weight: 500;
+    border-radius: 20px;
+}
+#accept {
+    background-color: #A7899C;
+    font-size: 20px;
+    border: none;
+    color:#D9D0DC;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+    margin: 20px;
+}
+#accept:hover {
+    background-color:#D9D0DC;
+    color: #7C616C;
+    transform: scale(1.05);
+}
+.mentorbox {
+    background-color: #A7899C;
+    font-size: 20px;
+    margin-top: 5px;
+    border: none;
+    color:#D9D0DC;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    font-weight: 700;
+    border-radius: 20px;
+}
+#reserve {
+    background-color: #A7899C;
+    font-size: 20px;
+    border: none;
+    color:#D9D0DC;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    display: flex;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+    margin: 20px;
+}
+#reserve:hover {
+    background-color:#D9D0DC;
+    color: #7C616C;
+    transform: scale(1.05);
+}
